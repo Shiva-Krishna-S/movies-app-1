@@ -1,0 +1,15 @@
+.popular-movies-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popular-movie-item {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.popular-image {
+  height: 170px;
+  width: 255px;
+  border-radius: 8px;
+}

@@ -1,0 +1,13 @@
+.thumbnail {
+  width: 215px;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .thumbnail {
+    width: 254px;
+    height: 170px;
+  }
+}
