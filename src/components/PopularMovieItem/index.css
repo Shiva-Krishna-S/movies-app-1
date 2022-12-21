@@ -1,0 +1,31 @@
+.popular-movie-image {
+  height: 100px;
+  width: 90px;
+  border-radius: 4px;
+  margin-right: 13px;
+  margin-bottom: 16px;
+}
+.popular-movie-item {
+  height: 100px;
+  width: 90px;
+
+  border-radius: 4px;
+  margin-right: 13px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .popular-movie-image {
+    height: 170px;
+    width: 255px;
+    border-radius: 8px;
+    margin: auto;
+  }
+  .popular-movie-item {
+    height: 170px;
+    width: 255px;
+
+    border-radius: 8px;
+    margin: auto;
+  }
+}

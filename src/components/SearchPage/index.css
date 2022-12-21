@@ -1,0 +1,66 @@
+.popular-background {
+  background-color: #131313;
+  min-height: 100vh;
+}
+.status-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin: auto;
+  width: 80%;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  width: 233px;
+  height: 172px;
+}
+.failure-msg {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.popular-movie-list {
+  list-style-type: none;
+  display: flex;
+  margin-left: 8px;
+  margin-right: 16px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-movie-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-right: 165px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+  }
+  .failure-image {
+    width: 375px;
+    height: 276px;
+  }
+  .failure-msg {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #ffffff;
+  }
+}

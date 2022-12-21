@@ -1,0 +1,128 @@
+.movie-heading-container {
+  padding-left: 5%;
+  padding-right: 55%;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 62vh;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(24, 24, 24, 0.546875) 38.26%,
+    #131313 92.82%,
+    #131313 98.68%,
+    #131313 108.61%
+  );
+}
+@media screen and (min-width: 768px) {
+  .movie-heading-container {
+    padding-right: 30%;
+  }
+}
+
+.movie-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+  padding-top: 84px;
+}
+.movie-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.movie-details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 9px;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 35px;
+}
+.duration {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 47px;
+  color: #ffffff;
+  padding-right: 28px;
+}
+.play-btn {
+  padding: 8px 24px;
+  gap: 8px;
+  width: 74px;
+  height: 40px;
+  border-style: none;
+  background: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 42px;
+}
+.certificate {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 28px;
+  border: 1px solid #ffffff;
+  height: 23px;
+  width: 32px;
+  text-align: center;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    color: #ffffff;
+    padding-left: 169px;
+    padding-top: 80px;
+  }
+  .movie-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left: 165px;
+    color: #ffffff;
+  }
+
+  .duration {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+    padding-right: 20px;
+  }
+  .play-btn {
+    padding: 8px 24px;
+    gap: 8px;
+    margin-left: 170px;
+    width: 74px;
+    height: 40px;
+    border-style: none;
+    background: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+}

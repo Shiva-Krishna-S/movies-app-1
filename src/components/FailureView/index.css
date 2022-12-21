@@ -1,0 +1,50 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-image {
+  width: 233px;
+  height: 172px;
+}
+.failure-msg {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.try-again-btn {
+  width: 107px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+  border-style: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .failure-view-image {
+    width: 375px;
+    height: 276px;
+  }
+  .failure-msg {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .try-again-btn {
+    padding: 12px 24px;
+    gap: 8px;
+    width: 110px;
+    height: 48px;
+  }
+}

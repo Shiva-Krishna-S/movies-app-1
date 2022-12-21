@@ -1,0 +1,33 @@
+.similar-movie-image {
+  height: 100px;
+  width: 90px;
+  border-radius: 4px;
+  margin-right: 13px;
+  margin-bottom: 16px;
+}
+.similar-movie-item {
+  height: 100px;
+  width: 90px;
+  list-style-type: none;
+  border-radius: 4px;
+  margin-right: 13px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .similar-movie-image {
+    height: 175px;
+    width: 255px;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-bottom: 24px;
+  }
+  .similar-movie-item {
+    height: 175px;
+    width: 255px;
+
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-bottom: 24px;
+  }
+}

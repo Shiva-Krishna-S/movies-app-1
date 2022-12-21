@@ -1,0 +1,48 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.icons-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.footer-icon {
+  margin-right: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-icon {
+    margin-right: 24px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+.contact-us {
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-us {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
